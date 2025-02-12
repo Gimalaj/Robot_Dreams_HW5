@@ -94,6 +94,7 @@ curl: (7) Failed to connect to localhost port 80 after 3 ms: Couldn't connect to
 
 ### У VirtualBox потрібно додати ще один мережевий інтерфейс Bridge Adapter та увімкнути Promiscuous Mode у режим Allow all.
 
+#### Виконуємо команду щоб отримати IP адресу на другий мережевий інтерфейс віртуальної машини від домашнього роутера
 ```
 $ sudo dhcpcd enp0s9
 ```
